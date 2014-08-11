@@ -13,7 +13,7 @@ fs.readFile path, (err, buf) ->
     fn = match[1]
     output += '\t@"' + fn + '",\n'
 
-  output = output.substring(0, output.length - 2) + "];"
+  output = output.substring(0, output.length - 2) + "]];"
 
   console.log output
 
